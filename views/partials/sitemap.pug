@@ -13,7 +13,7 @@
         li
             a(href=routes.users+routes.users, title="home") users        
         li
-            a(href=routes.users+routes.userDetail, title="home") userDetail                
+            a(href=routes.users+routes.userDetail(user.id), title="home") userDetail                
         li
             a(href=routes.users+routes.editProfile, title="home") editProfile        
         li
@@ -23,11 +23,11 @@
         li
             a(href=routes.videos+routes.upload, title="home") upload                
         li
-            a(href=routes.videos+routes.videoDetail, title="home") videoDetail        
+            a(href=routes.videos+routes.videoDetail(user.id), title="home") videoDetail        
         li
-            a(href=routes.videos+routes.editVideo, title="home") editVideo                
+            a(href=routes.videos+routes.editVideo(user.id), title="home") editVideo                
         li
-            a(href=routes.videos+routes.deleteVideo, title="home") deleteVideo        
+            a(href=routes.videos+routes.deleteVideo(user.id), title="home") deleteVideo        
 
 
 
