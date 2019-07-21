@@ -1,4 +1,10 @@
 extends layouts/main
 
 block content   
-    p Hello
+    .form-container 
+        form(action=routes.login, method="post")
+            label(for="avatar") Avatar
+            input(type="text", name="name", placeholder="name")
+            input(type="email", name="email", placeholder="email")
+            input(type="submit", value="update Profile")
+        a(href="/users/change-password") 비밀번호 변경
