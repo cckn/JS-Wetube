@@ -11,9 +11,9 @@ Cloning Youtube.com with Vanilla and Node JS
 - [x] Join
 - [x] Login
 - [x] Search
-- [ ] User detail
+- [x] User detail
 - [x] Edit profile
-- [ ] Change password
-- [ ] Upload
-- [ ] Video detail
-- [ ] Edit video
+- [x] Change password
+- [x] Upload
+- [x] Video detail
+- [x] Edit video

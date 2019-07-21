@@ -4,6 +4,7 @@ block content
     .form-container 
         form(action=routes.login, method="post")
             label(for="avatar") Avatar
+            input(type="file", name="avatar")
             input(type="text", name="name", placeholder="name")
             input(type="email", name="email", placeholder="email")
             input(type="submit", value="update Profile")
