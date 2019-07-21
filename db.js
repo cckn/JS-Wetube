@@ -4,7 +4,7 @@ export const videos = [
     title: "video 1 ",
     description: "ddddsadasd",
     views: 32,
-    videoFile: "#",
+    videoFile: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     creator: {
       id: 22,
       name: "Ds",
@@ -16,7 +16,7 @@ export const videos = [
     title: "video 2 ",
     description: "ddddsadasd",
     views: 32,
-    videoFile: "#",
+    videoFile: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     creator: {
       id: 22,
       name: "Ds",
@@ -28,7 +28,7 @@ export const videos = [
     title: "video 3 ",
     description: "ddddsadasd",
     views: 32,
-    videoFile: "#",
+    videoFile: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     creator: {
       id: 22,
       name: "Ds",
@@ -40,7 +40,7 @@ export const videos = [
     title: "video 4 ",
     description: "ddddsadasd",
     views: 32,
-    videoFile: "#",
+    videoFile: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     creator: {
       id: 22,
       name: "Ds",
