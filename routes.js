@@ -1,4 +1,3 @@
-import { deflate } from "zlib";
 
 // Global 
 const HOME = "/"
