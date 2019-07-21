@@ -3,4 +3,10 @@ extends layouts/main
 block content   
     .videos
         h1 Video
+        each item in videosData
+            h3=item.title
+            span id : #{item.id}
+            p=item.description
+            
+        
     
